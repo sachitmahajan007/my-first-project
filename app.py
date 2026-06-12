@@ -11,7 +11,7 @@ client = Groq(api_key=os.getenv("your-groq-key-here"))
 def home():
     return jsonify({
         "message": "Welcome to Sachit's AI API",
-        "status": "running",
+        "status": "running", 
         "endpoints": {
             "POST /ask": "Ask the AI anything"
         }
